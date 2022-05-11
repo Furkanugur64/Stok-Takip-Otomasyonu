@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b539b097bb0a416a9d3dd3e8e7322b28" Name="Diagram1" ZoomLevel="67">
+        <EntityTypeShape EntityType="DB_UgurPazarlamaModel.TBL_ADMIN" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UgurPazarlamaModel.TBL_DEPO" Width="1.5" PointX="7.5" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UgurPazarlamaModel.TBL_ILCELER" Width="1.5" PointX="3" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UgurPazarlamaModel.TBL_ILLER" Width="1.5" PointX="0.75" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UgurPazarlamaModel.TBL_KATEGORILER" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UgurPazarlamaModel.TBL_MARKALAR" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UgurPazarlamaModel.TBL_MUSTERILER" Width="1.5" PointX="8.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UgurPazarlamaModel.TBL_PERSONELLER" Width="1.5" PointX="8.25" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UgurPazarlamaModel.TBL_SATIS" Width="1.5" PointX="10.5" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UgurPazarlamaModel.TBL_STATULER" Width="1.5" PointX="6" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB_UgurPazarlamaModel.TBL_URUN" Width="1.5" PointX="5.25" PointY="4.25" IsExpanded="true" />
+        <AssociationConnector Association="DB_UgurPazarlamaModel.FK_TBL_DEPO_TBL_URUN" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UgurPazarlamaModel.FK_TBL_ILCELER_TBL_ILLER" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UgurPazarlamaModel.FK_TBL_MARKALAR_TBL_KATEGORILER" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UgurPazarlamaModel.FK_TBL_URUN_TBL_KATEGORILER" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UgurPazarlamaModel.FK_TBL_URUN_TBL_MARKALAR" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UgurPazarlamaModel.FK_TBL_SATIS_TBL_MUSTERILER" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UgurPazarlamaModel.FK_TBL_PERSONELLER_TBL_STATULER" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UgurPazarlamaModel.FK_TBL_SATIS_TBL_PERSONELLER" ManuallyRouted="false" />
+        <AssociationConnector Association="DB_UgurPazarlamaModel.FK_TBL_SATIS_TBL_URUN" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
