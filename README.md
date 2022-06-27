@@ -1,5 +1,5 @@
 
-# STOK TAKİP OTOMASYONU
+# STOK TAKİP OTOMASYONU 🧿
 
 Bu Proje Sql Server Management Studio 18 ve Visual Studio 2019 programı kullanarak yapılmıştır. Proje Personel ve Admin olmak üzere 2 tane panelden oluşmaktadır. Admin kasayla ilgili işleri ve personel ekleme,ürün alımı yapma gibi bazı ayrıcalıklara sahiptir.Projede toplam 10 tane tablo ve ilişkiler kullanılmıştır. Ürün alındığında veya satıldığındaki adet ve kasadaki paranın artma azalma işlemleri triggerlar kullanılarak gerçekleştirilmiştir.Tüm tasarım bana ait olup tamamen hobi  ve öğrendiklerimi pekiştirmek amaçlı geliştirilmiştir.
 
