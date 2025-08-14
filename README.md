@@ -6,7 +6,7 @@ Bu Proje Sql Server Management Studio 18 ve Visual Studio 2019 programı kullana
  ## Proje içi Görseller
 
 ## Login Sayfası
-![](https://i.hizliresim.com/f4t37ye.jpg)
+![](http://i.hizliresim.com/f4t37ye.jpg)
 
 
 ------------
